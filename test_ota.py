@@ -1,5 +1,5 @@
-from ota import OTAUpdater
-from WIFI_CONFIG import SSID, PASSWORD
+#from ota import OTAUpdater
+#from WIFI_CONFIG import SSID, PASSWORD
 
 print("Ciao Marco!!!!!!!")
 
