@@ -3,6 +3,8 @@
 
 print("Ciao Marco!!!!!!!")
 
+print("forza Roma!!!!!!!")
+
 firmware_url = "https://github.com/LPGLed/prova"
 
 #ota_updater = OTAUpdater(LPGLed WiFi, !lpgled!, firmware_url, "test_ota.py")
