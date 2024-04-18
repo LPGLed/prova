@@ -1,12 +1,16 @@
-#from ota import OTAUpdater
-#from WIFI_CONFIG import SSID, PASSWORD
 
 print("Ciao Marco!!!!!!!")
 
 print("forza Roma!!!!!!!")
 
 firmware_url = "https://github.com/LPGLed/prova"
+from machine import Pin
+from time import sleep
 
-#ota_updater = OTAUpdater(LPGLed WiFi, !lpgled!, firmware_url, "test_ota.py")
+led = Pin(22,Pin.OUT)
 
-#ota_updater.download_and_install_update_if_available()
+while True:
+    led.value(0)
+    sleep(2)
+    led.value(1)
+    sleep(2)
