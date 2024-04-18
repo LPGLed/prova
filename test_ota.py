@@ -1,10 +1,11 @@
+
 from machine import Pin
 from time import sleep
-
+#firmware_url = "https://github.com/LPGLed/prova"
 led = Pin(22,Pin.OUT)
 
 while True:
-    led.value(0)
-    sleep(5)
-    led.value(1)
-    sleep(5)
+    print("Ciao Marco!!!!!!!")
+    sleep(2)
+    print("forza Roma!!!!!!!!!!!!!!!!!!")
+    sleep(2)
