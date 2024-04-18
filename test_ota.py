@@ -1,7 +1,7 @@
 from ota import OTAUpdater
 from WIFI_CONFIG import SSID, PASSWORD
 
-print("Ciao Marco")
+print("Ciao Marco!!!!!!!")
 
 firmware_url = "https://github.com/LPGLed/prova"
 
