@@ -1,9 +1,3 @@
-
-print("Ciao Marco!!!!!!!")
-
-print("forza Roma!!!!!!!")
-
-firmware_url = "https://github.com/LPGLed/prova"
 from machine import Pin
 from time import sleep
 
