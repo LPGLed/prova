@@ -7,7 +7,7 @@ firmware_url = "https://github.com/LPGLed/prova"
 from machine import Pin
 from time import sleep
 
-led = Pin(22,Pin.OUT)
+led = Pin(2,Pin.OUT)
 
 while True:
     led.value(0)
